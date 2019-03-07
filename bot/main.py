@@ -69,3 +69,5 @@ while True:
     except Exception as e:
         print(e)
         break
+        
+        $ heroku ps:scale web=1
