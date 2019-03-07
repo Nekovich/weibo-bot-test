@@ -1,1 +1,1 @@
-$ heroku ps:scale web=1
+bot: python bot/main.py
