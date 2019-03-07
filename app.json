@@ -1,0 +1,25 @@
+{
+  "name": "Discord Weibo Bot",
+  "description": "Post Weibo posts to Discord through Webhook",
+  "website": "https://github.com/theandychung/discord-weibo-bot",
+  "repository": "https://github.com/theandychung/discord-weibo-bot",
+  "logo": "https://i.imgur.com/bKRd34R.png",
+  "keywords": [
+      "discord",
+      "weibo",
+      "webhook"
+  ],
+  "env": {
+    "WEBHOOK_URL": {
+      "description": "Discord webhook URL https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks"
+    },
+    "WEIBO_ID":{
+      "description": "The Weibo ID(s) you want to track with this bot, use (,) to split. Ex: 123, 456, 103"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/dmathieu/heroku-buildpack-submodules"
+    }
+  ]
+}
